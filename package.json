@@ -4,7 +4,7 @@
   "description": "testing out travis ci",
   "main": "app.js",
   "scripts": {
-    "test":"jest --coverage"
+    "test": "jest --coverage && coveralls < coverage/lcov.info"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "coveralls": "^3.1.0",
     "jest": "^26.0.1"
   }
 }
