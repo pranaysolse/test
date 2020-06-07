@@ -4,7 +4,7 @@
   "description": "testing out travis ci",
   "main": "app.js",
   "scripts": {
-    "test":"jest"
+    "test":"jest --coverage"
   },
   "repository": {
     "type": "git",
