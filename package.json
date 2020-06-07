@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "testing out travis ci",
+  "main": "app.js",
+  "scripts": {
+    "test":"jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranaysolse/test.git"
+  },
+  "keywords": [
+    "travis",
+    "jest",
+    "node"
+  ],
+  "author": "Pranay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranaysolse/test/issues"
+  },
+  "homepage": "https://github.com/pranaysolse/test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
